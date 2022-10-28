@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import theme from "../../config";
 
 export const Speaker = styled.div`
   label: Speaker;
@@ -22,7 +23,7 @@ export const Name = styled.div`
   font-size: 23px;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color:#222;
+  color:${theme.gray};
   padding:5px
   
   `
@@ -30,7 +31,7 @@ export const Name = styled.div`
   label: Job;
   font-size:12px;
   font-weight: bold;
-  color:#777;
+  color:${theme.white};
   padding:5px
   
 `

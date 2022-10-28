@@ -3,8 +3,7 @@ import CreativeSpeakers from './desigen-system/components/CreativeSpeakers';
 import dataSpeakers from './desigen-system/components/CreativeSpeakers/dataCreativeSpeakers';
 import OverView from './desigen-system/components/overView';
 import dataOverView from './desigen-system/components/overView/dataOverView';
-import img1 from './shared/asses/1.jpg'
-
+import './desigen-system/components/style.css'
 
 function App() {
   return (
@@ -31,7 +30,7 @@ function App() {
           })
         }
       </div>
-      
+
     </div>
   );
 }
