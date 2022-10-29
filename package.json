@@ -13,17 +13,24 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "babel-plugin-macros": "^3.1.0",
+    "bootstrap": "^5.2.2",
     "npm-check-updates": "^16.3.15",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^3.0.4"
   },
   "scripts": {
+    "postinstall": "link-module-alias",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "_moduleAliases": {
+    "@imgAsses": "./src/shared/alias",
+    "@imgImages": "./src/shared/imags"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "link-module-alias": "^1.2.0"
   }
 }
