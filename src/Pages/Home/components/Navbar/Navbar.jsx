@@ -2,18 +2,20 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 import { SpanLogo } from './style';
+import  './style.css';
 
 export default function NavbarFunc() {
   return (
-    <div>
-      <Navbar bg="dark" expand="lg" variant="dark" style={{padding: '20px'}} fixed='top'>
+    <div style={{marginBottom: '70px'}}>
+      <Navbar bg="dark" expand="lg" variant="dark" style={{padding: '10px'}} fixed='top'>
         <Container>
-          <Navbar.Brand href="#home">New <SpanLogo>Event</SpanLogo></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link href="#home">Intro</Nav.Link>
+          <Link style={{fontSize: '30px'}} className='navbar-brand' to="/">New <SpanLogo>Event</SpanLogo></Link>
+          <Navbar.Toggle  aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse  id="basic-navbar-nav">
+            <Nav style={{fontSize:'18px'}} className="ms-auto">
+              <Link className='nav-link' to="/">Intro</Link>
               <Nav.Link href="#features">OverView</Nav.Link>
               <Nav.Link href="#Speakers">Speakers</Nav.Link>
               <Nav.Link href="#Programs">Programs</Nav.Link>
