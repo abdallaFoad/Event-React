@@ -2,8 +2,8 @@ import styled from '@emotion/styled';
 import theme from '../../../../desigen-system/config'
 
 
-export const AboutSection = styled.div`
-  label: AboutSection;
+export const VideoSection = styled.div`
+  label: VideoSection;
   padding:5rem 0;
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -16,6 +16,7 @@ export const H1 = styled.h1`
   margin-bottom: 3rem;
   color:${theme.secondary};
   line-height:1.6;
+  text-transform: uppercase;
 `
 export const FPara = styled.p`
   label: FPara;
@@ -23,7 +24,10 @@ export const FPara = styled.p`
   font-size:1.1rem;
   line-height: 1.9;
 `
-export const Img = styled.img`
-  label: Img;
+export const IFram = styled.iframe`
+  label: IFram;
   width:100%;
+  height:100%;
+  min-height:300px;
+  border:3px solid ${theme.primary}
 `

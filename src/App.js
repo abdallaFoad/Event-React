@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 function App() {
   return (
-    <div className="App" style={{height: '4000px'}}>
+    <div className="App" style={{ height: '4000px' }}>
       <Routes>
         <Route path='/' element={<Home /> } />
       </Routes>

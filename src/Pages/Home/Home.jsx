@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarFunc from './components/Navbar/Navbar';
 import Header from './components/Header';
 import About from './components/About/About';
+import OverViewComponent from './components/OverView/OverViewComponent';
+import WatchVideo from './components/WatchVideo';
+import CreativeSpeakers from './components/CreativeSpeakers/CreativeSpeakers';
 
 export default function Home() {
   return (
@@ -10,6 +13,9 @@ export default function Home() {
       <NavbarFunc />
       <Header />
       <About />
+      <OverViewComponent />
+      <WatchVideo />
+      <CreativeSpeakers />
     </div>
   )
 }

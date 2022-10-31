@@ -6,7 +6,7 @@ const dataOverView = [
     id:1,
     icon: faEnvelope,
     title: 'Messages',
-    description: "molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto"
+    description: "molestiae conseur voluptatum Provident laboumquam blandis Provident harum quiuam eiussed odit fugiat iusto"
   },
   {
     id:2,
@@ -18,7 +18,7 @@ const dataOverView = [
     id:3,
     icon: faMobile,
     title: 'Mobile Phone',
-    description:"harum nesciunt ipsum debitis quas aliquid. Reprehenderit,quia. Quo neque error repudiandae fuga"
+    description:"harum nesciunt ipsum Provident debitis quas aliquid Reprehenderit Provident quia Quo neque error repudiandae fuga"
   }
 ]
 
