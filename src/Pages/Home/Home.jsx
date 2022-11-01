@@ -7,6 +7,7 @@ import OverViewComponent from './components/OverView/OverViewComponent';
 import WatchVideo from './components/WatchVideo';
 import CreativeSpeakers from './components/CreativeSpeakers';
 import OurPrograms from './components/OurPrograms';
+import Register from './components/RegisterHere/Register';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <WatchVideo />
       <CreativeSpeakers />
       <OurPrograms />
+      <Register />
     </div>
   )
 }

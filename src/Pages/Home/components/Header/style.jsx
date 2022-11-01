@@ -5,6 +5,7 @@ import theme from '../../../../desigen-system/config'
 export const Head = styled.div`
   label: Head;
   height:100vh;
+  overflow: hidden;
   background: url(${img});
   background-size:cover;
   background-repeat:no-repeat;
