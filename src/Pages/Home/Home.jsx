@@ -5,7 +5,8 @@ import Header from './components/Header';
 import About from './components/About/About';
 import OverViewComponent from './components/OverView/OverViewComponent';
 import WatchVideo from './components/WatchVideo';
-import CreativeSpeakers from './components/CreativeSpeakers/CreativeSpeakers';
+import CreativeSpeakers from './components/CreativeSpeakers';
+import OurPrograms from './components/OurPrograms';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <OverViewComponent />
       <WatchVideo />
       <CreativeSpeakers />
+      <OurPrograms />
     </div>
   )
 }

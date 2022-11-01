@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Box, Clock, Head, Img, Place, RoomNum } from './style';
+import { Box, H2, Head, Img, Name, P, Place, RoomNum, Time } from './style';
+import theme from '../../config';
 
 export default function OurPrograms({
   image,
@@ -13,27 +14,27 @@ export default function OurPrograms({
   description }) {
   return (
     <>
-      <Box className='all-box'>
+      <Box>
         <Img className="img">
-          <img src={image} alt="img" />
+          <img style={{ width: '100%', borderRadius:'50%'}} src={image} alt="img" />
         </Img>
 
         <div className="content">
           <Head className="head">
-            <Clock className="clock">
-              <div className="icon"><FontAwesomeIcon icon={clockIcon} /></div>
-              <div className="time">{time}</div>
-            </Clock>
+            <Place className="clock">
+              <div className="icon"><FontAwesomeIcon color={theme.red} icon={clockIcon} /></div>
+              <Time>{time}</Time>
+            </Place>
 
             <Place className="place">
-              <div className="icon"><FontAwesomeIcon icon={placeIcon}/></div>
-              <div className="address">Room <RoomNum>{roomNumber}</RoomNum></div>
+              <div className="icon"><FontAwesomeIcon color={theme.red} icon={placeIcon}/></div>
+              <Time className="address">Room <RoomNum>{roomNumber}</RoomNum></Time>
             </Place>
           </Head>
 
-          <h2>{job}</h2> 
-          <span>{name}</span>
-          <p>{description}</p>
+          <H2>{job}</H2> 
+          <Name>{name}</Name>
+          <P>{description}</P>
         </div>
       </Box>
     </>

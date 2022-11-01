@@ -4,9 +4,13 @@ import img3 from '../../../shared/asses/avatar-03.png';
 import img4 from '../../../shared/asses/avatar-04.png';
 import img5 from '../../../shared/asses/avatar-05.png';
 import img6 from '../../../shared/asses/avatar-06.png';
+import img7 from '../../../shared/imags/secondday-2.jpg';
+import img8 from '../../../shared/imags/firstday-2.jpg';
+import img9 from '../../../shared/imags/firstday-3.jpg';
+
 import { faClock, faLocationArrow } from '@fortawesome/free-solid-svg-icons';
 
-const dataOurPrograms = [
+export const dataOurPrograms1 = [
   {
     id: 1,
     image: img1,
@@ -40,6 +44,9 @@ const dataOurPrograms = [
     name: 'By Marco Saf ',
     description: 'obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquamnihil, eveniet aliquid culpa officia'
   },
+];
+
+export const dataOurPrograms2 = [
   {
     id: 4,
     image: img4,
@@ -47,7 +54,7 @@ const dataOurPrograms = [
     time: "12.00 AM",
     placeIcon: faLocationArrow,
     roomNumber: '264',
-    job: 'Desktop Developer',
+    job: 'Social Media Marketing',
     name: 'By Verati Alicns',
     description: 'tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,quia. Quo neque error repudiandae '
   },
@@ -72,8 +79,41 @@ const dataOurPrograms = [
     job: 'Introduction to Design',
     name: 'By Yonoun Mor',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae'
-  },
-
+  }
 ];
 
-export default dataOurPrograms;
+export const dataOurPrograms3 = [
+    {
+    id: 7,
+    image: img7,
+    clockIcon: faClock,
+    time: "03.00 AM",
+    placeIcon: faLocationArrow,
+    roomNumber: '546',
+    job: 'Desktop Developer',
+    name: 'By Mashod Ozil',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae'
+  },
+  {
+    id: 8,
+    image: img8,
+    clockIcon: faClock,
+    time: "07.00 AM",
+    placeIcon: faLocationArrow,
+    roomNumber: '322',
+    job: 'Introduction to Design',
+    name: 'By Emary Shan',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae'
+  },
+  {
+    id: 9,
+    image: img9,
+    clockIcon: faClock,
+    time: "06.00 AM",
+    placeIcon: faLocationArrow,
+    roomNumber: '235',
+    job: 'Social Media Marketing',
+    name: 'By Marnano Diaz',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae'
+  }
+]
