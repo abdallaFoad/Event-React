@@ -9,9 +9,9 @@ export const RegisterCon = styled.div`
   background-size:cover;
   background-attachment: fixed;
   background-repeat:no-repeat;
-  height:100vh;
+  min-height:100vh;
   width:100%;
-  z-index:-1
+  z-index:-1;
 `
 
 export const Content = styled.div`
@@ -85,4 +85,10 @@ export const H1 = styled.h1`
   border: none;
   outline: none;
   font-size: 1.1rem;
+  font-weight: bold;
+  transition: all .5s;
+    :hover{
+    background-color: ${theme.whiteSmoke};
+    color:${theme.secondary}
+  }
 `
