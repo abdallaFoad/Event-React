@@ -12,6 +12,7 @@ import AccordionCom from './components/Accordion/AccordionCom';
 import Venue from './components/Venue';
 import Contact from './components/ContactUs/Contact';
 import Sponsors from './components/Sponsors/Sponsors';
+import Footer from './components/Footer';
 export default function Home() {
   return (
     <div>
@@ -27,6 +28,7 @@ export default function Home() {
       <Venue />
       <Sponsors />
       <Contact />
+      <Footer />
     </div>
   )
 }
