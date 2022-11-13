@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Event-React/static/css/main.e1d5eec6.css",
+    "main.js": "/Event-React/static/js/main.eae3b397.js",
+    "static/js/496.a674e852.chunk.js": "/Event-React/static/js/496.a674e852.chunk.js",
+    "static/media/intro-bg.jpg": "/Event-React/static/media/intro-bg.5759acf1c9f729de7251.jpg",
+    "static/media/register-bg.jpg": "/Event-React/static/media/register-bg.75b9aa61396797ed36e0.jpg",
+    "static/media/contact-bg.jpg": "/Event-React/static/media/contact-bg.2d2570ec5a57832ba97f.jpg",
+    "static/media/about.jpg": "/Event-React/static/media/about.244a25749202917365c9.jpg",
+    "static/media/4.jpg": "/Event-React/static/media/4.84b2af3712d59cbc533f.jpg",
+    "static/media/12.jpg": "/Event-React/static/media/12.d4df3d4a9eeda8d66788.jpg",
+    "static/media/2.jpg": "/Event-React/static/media/2.b204c36964e8285a6060.jpg",
+    "static/media/1.jpg": "/Event-React/static/media/1.2c4f535b6426be38f4ec.jpg",
+    "static/media/avatar-05.png": "/Event-React/static/media/avatar-05.623ad256d00afefa95b1.png",
+    "static/media/venue-bg.jpg": "/Event-React/static/media/venue-bg.ec15499101b71fbbc8e7.jpg",
+    "static/media/avatar-06.png": "/Event-React/static/media/avatar-06.6fb74fa5aafaa2d3651b.png",
+    "static/media/firstday-2.jpg": "/Event-React/static/media/firstday-2.09bb417962228b11c8d0.jpg",
+    "static/media/firstday-3.jpg": "/Event-React/static/media/firstday-3.f1eb626c3f20f4376195.jpg",
+    "static/media/6.jpg": "/Event-React/static/media/6.e68139ecedad85dc87fe.jpg",
+    "static/media/avatar-04.png": "/Event-React/static/media/avatar-04.5cde1a1b7dffd9b9f83a.png",
+    "static/media/avatar-03.png": "/Event-React/static/media/avatar-03.9bcc1e0b675edf836ed9.png",
+    "static/media/avatar-02.png": "/Event-React/static/media/avatar-02.cc9c983a8f12aab07b5f.png",
+    "static/media/avatar-01.png": "/Event-React/static/media/avatar-01.0e35f1b657d699ca4e25.png",
+    "static/media/secondday-2.jpg": "/Event-React/static/media/secondday-2.65dd5d11e79c06dcd715.jpg",
+    "index.html": "/Event-React/index.html",
+    "main.e1d5eec6.css.map": "/Event-React/static/css/main.e1d5eec6.css.map",
+    "main.eae3b397.js.map": "/Event-React/static/js/main.eae3b397.js.map",
+    "496.a674e852.chunk.js.map": "/Event-React/static/js/496.a674e852.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1d5eec6.css",
+    "static/js/main.eae3b397.js"
+  ]
+}
