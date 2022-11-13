@@ -1,12 +1,12 @@
-import img1 from '../../../shared/asses/avatar-01.png';
-import img2 from '../../../shared/asses/avatar-02.png';
-import img3 from '../../../shared/asses/avatar-03.png';
-import img4 from '../../../shared/asses/avatar-04.png';
-import img5 from '../../../shared/asses/avatar-05.png';
-import img6 from '../../../shared/asses/avatar-06.png';
-import img7 from '../../../shared/imags/secondday-2.jpg';
-import img8 from '../../../shared/imags/firstday-2.jpg';
-import img9 from '../../../shared/imags/firstday-3.jpg';
+import img1 from 'images1/avatar-01.png';
+import img2 from 'images1/avatar-02.png';
+import img3 from 'images1/avatar-03.png';
+import img4 from 'images1/avatar-04.png';
+import img5 from 'images1/avatar-05.png';
+import img6 from 'images1/avatar-06.png';
+import img7 from 'images2/secondday-2.jpg';
+import img8 from 'images2/firstday-2.jpg';
+import img9 from 'images2/firstday-3.jpg';
 
 import { faClock, faLocationArrow } from '@fortawesome/free-solid-svg-icons';
 

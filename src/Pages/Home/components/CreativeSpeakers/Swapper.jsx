@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from "swiper";
-import dataSpeakers from '../../../../desigen-system/components/CreativeSpeakers/dataCreativeSpeakers';
-import CreativeSpeakers from '../../../../desigen-system/components/CreativeSpeakers/CreativeSpeakers';
+import dataSpeakers from 'yourStyled/components/CreativeSpeakers/dataCreativeSpeakers';
+import CreativeSpeakers from 'yourStyled/components/CreativeSpeakers/CreativeSpeakers';
 
 export default function Swapper() {
   return (

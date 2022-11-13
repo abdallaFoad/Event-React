@@ -1,6 +1,6 @@
 
 import styled from '@emotion/styled'
-import theme from '../../../../desigen-system/config'
+import theme from 'yourStyled/config'
 
 export const SpanLogo = styled.span`
   label: SpanLogo;

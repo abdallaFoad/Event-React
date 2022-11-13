@@ -1,6 +1,6 @@
 import React from 'react'
 import { VideoSection, FPara, H1, IFram } from './style'
-import AboutImg from '../../../../shared/imags/about.jpg'
+import AboutImg from 'images2/about.jpg'
 import Container from 'react-bootstrap/Container';
 
 export default function WatchVideo() {

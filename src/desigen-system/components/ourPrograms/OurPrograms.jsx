@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Box, H2, Head, Img, Name, P, Place, RoomNum, Time } from './style';
-import theme from '../../config';
+import theme from 'yourStyled/config';
 
 export default function OurPrograms({
   image,

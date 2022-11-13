@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { dataOurPrograms1, dataOurPrograms2, dataOurPrograms3 } from '../../../../desigen-system/components/ourPrograms/dataOurPrograms';
-import OurPrograms from '../../../../desigen-system/components/ourPrograms/OurPrograms';
-import theme from '../../../../desigen-system/config';
+import OurPrograms from 'yourStyled/components/ourPrograms/OurPrograms';
+import theme from 'yourStyled/config';
 import { ConTaps, Line, ParTaps, TSpan } from './style'
 
 export default function Taps() {

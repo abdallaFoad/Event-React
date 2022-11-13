@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box, OverViewContainer } from './style'
 import Container from 'react-bootstrap/Container';
-import dataOverView from '../../../../desigen-system/components/overView/dataOverView';
-import OverView from '../../../../desigen-system/components/overView/overView';
+import dataOverView from 'yourStyled/components/overView/dataOverView';
+import OverView from 'yourStyled/components/overView/overView';
 
 
 export default function OverViewComponent() {

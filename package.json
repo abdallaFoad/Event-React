@@ -17,6 +17,7 @@
     "babel-plugin-macros": "^3.1.0",
     "bootstrap": "^5.2.2",
     "gh-pages": "^4.0.0",
+    "link-module-alias": "^1.2.0",
     "npm-check-updates": "^16.3.15",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
@@ -35,9 +36,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "_moduleAliases": {
-    "@imgAsses": "./src/shared/alias",
-    "@imgImages": "./src/shared/imags"
+  "_moduleAliases":{
+    "images1": "./src/shared/asses",
+    "images2": "./src/shared/imags",
+    "yourStyled":"./src/desigen-system"
   },
   "eslintConfig": {
     "extends": [
@@ -56,8 +58,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "link-module-alias": "^1.2.0"
   }
 }

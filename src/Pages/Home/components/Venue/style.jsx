@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import img from '../../../../shared/imags/venue-bg.jpg';
-import theme from '../../../../desigen-system/config';
+import img from 'images2/venue-bg.jpg';
+import theme from 'yourStyled/config';
 
 
 export const ParentVenue = styled.div`

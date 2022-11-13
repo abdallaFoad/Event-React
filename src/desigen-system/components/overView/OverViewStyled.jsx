@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import theme from '../../config'
+import theme from 'yourStyled/config'
 export const OverWrapper = styled.div`
   label: overWrapper;
   width:300px;

@@ -1,6 +1,6 @@
 import React from 'react'
 import { AboutSection, FPara, H1, Img } from './style'
-import AboutImg from '../../../../shared/imags/about.jpg'
+import AboutImg from 'images2/about.jpg'
 import Container from 'react-bootstrap/Container';
 
 export default function About() {

@@ -1,8 +1,8 @@
-import img1 from '../../../shared/asses/1.jpg';
-import img2 from '../../../shared/asses/12.jpg';
-import img3 from '../../../shared/asses/2.jpg';
-import img4 from '../../../shared/asses/4.jpg';
-import img5 from '../../../shared/asses/6.jpg';
+import img1 from 'images1/1.jpg';
+import img2 from 'images1/12.jpg';
+import img3 from 'images1/2.jpg';
+import img4 from 'images1/4.jpg';
+import img5 from 'images1/6.jpg';
 
 const dataSpeakers = [
   {

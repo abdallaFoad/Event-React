@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import img from '../../../../shared/imags/register-bg.jpg';
-import theme from '../../../../desigen-system/config';
+import img from 'images2/register-bg.jpg';
+import theme from 'yourStyled/config';
 
 
 export const RegisterCon = styled.div`

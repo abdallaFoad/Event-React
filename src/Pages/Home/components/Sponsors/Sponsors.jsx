@@ -1,9 +1,9 @@
 import React from 'react'
 import { Images, Sponsor } from './style'
-import img1 from '../../../../shared/imags/sponsor-img1.jpg';
-import img2 from '../../../../shared/imags/sponsor-img2.jpg';
-import img3 from '../../../../shared/imags/sponsor-img3.jpg';
-import img4 from '../../../../shared/imags/sponsor-img4.jpg';
+import img1 from 'images2/sponsor-img1.jpg';
+import img2 from 'images2/sponsor-img2.jpg';
+import img3 from 'images2/sponsor-img3.jpg';
+import img4 from 'images2/sponsor-img4.jpg';
 import { H1, Span, P } from '../CreativeSpeakers/style';
 
 
