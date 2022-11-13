@@ -28,7 +28,7 @@
     "web-vitals": "^3.0.4"
   },
   "scripts": {
-    "predploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "postinstall": "link-module-alias",
     "start": "react-scripts start",
